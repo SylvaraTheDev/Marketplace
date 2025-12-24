@@ -1,0 +1,14 @@
+{
+  "name": "nixos",
+  "version": "1.0.0",
+  "description": "NixOS configuration and package management integration",
+  "author": {
+    "name": "Sylvara",
+    "email": "aeon@sylvara.dev"
+  },
+  "homepage": "https://github.com/utensils/mcp-nixos",
+  "repository": "https://github.com/utensils/mcp-nixos",
+  "license": "MIT",
+  "keywords": ["nixos", "nix", "packages", "configuration"],
+  "mcpServers": "./.mcp.json"
+}

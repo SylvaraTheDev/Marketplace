@@ -1,0 +1,27 @@
+{
+  "name": "sylvara-nixos",
+  "owner": {
+    "name": "Sylvara",
+    "email": "aeon@sylvara.dev"
+  },
+  "metadata": {
+    "description": "NixOS development and configuration tools for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "nixos",
+      "source": "./plugins/nixos",
+      "description": "NixOS option search, package lookup, and configuration helpers",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sylvara"
+      },
+      "repository": "https://github.com/utensils/mcp-nixos",
+      "license": "MIT",
+      "keywords": ["nixos", "nix", "configuration", "packages"],
+      "category": "integration",
+      "strict": true
+    }
+  ]
+}
