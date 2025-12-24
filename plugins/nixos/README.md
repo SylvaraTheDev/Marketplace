@@ -18,7 +18,7 @@ Provides NixOS-specific tools and helpers through the [mcp-nixos](https://github
 /plugin marketplace add sylvara/marketplace
 
 # Install the plugin
-/plugin install nixos@sylvara-nixos
+/plugin install nixos@sylvara
 ```
 
 ### Standalone
