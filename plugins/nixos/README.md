@@ -24,7 +24,7 @@ Provides NixOS-specific tools and helpers through the [mcp-nixos](https://github
 ### Standalone
 
 ```bash
-claude mcp add --transport stdio nixos -- npx -y @tychoish/mcp-nixos
+claude mcp add --transport stdio nixos -- uvx mcp-nixos
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ Claude will use the NixOS MCP server to provide accurate, up-to-date information
 ## Requirements
 
 - Claude Code CLI
-- Node.js and npm (for running the MCP server via npx)
+- Python and uv (for running the MCP server via uvx)
 - Internet connection (for downloading the MCP server on first use)
 
 ## Troubleshooting

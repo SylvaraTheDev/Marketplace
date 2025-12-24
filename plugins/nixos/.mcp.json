@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "nixos": {
-      "command": "npx",
-      "args": ["-y", "@tychoish/mcp-nixos"],
+      "command": "uvx",
+      "args": ["mcp-nixos"],
       "env": {}
     }
   }
